@@ -1,4 +1,4 @@
-# swe-cv (Typst CV)
+# Typst CV template
 
 A CV template built with Typst. Edit the YAML config and compile to PDF. 
 
