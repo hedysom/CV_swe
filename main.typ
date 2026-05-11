@@ -30,7 +30,7 @@
   #exp-header((left: ed.location, center: ed.name, right: ed.date))
   - #ed.degree
   #if "finalGrade" in ed or "gpa" in ed [
-    - #if "finalGrade" in ed [Final Grade: #ed.finalGrade] #if "gpa" in ed [, GPA: #ed.gpa]
+    - #if "finalGrade" in ed [Final Grade: #ed.finalGrade]#if "gpa" in ed [, GPA: #ed.gpa]
   ]
 ]
 
