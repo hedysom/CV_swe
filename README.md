@@ -1,0 +1,43 @@
+# swe-cv (Typst CV)
+
+A CV template built with Typst. Edit the YAML config and compile to PDF. Small modifications and QOL adjustments of [this template](https://github.com/sardorml/swe-cv-typst)
+
+![Preview](example.png)
+
+## Requirements
+
+- Typst CLI installed (`typst`)
+
+## Download
+
+```bash
+git clone https://github.com/hedysom/CV_swe.git
+cd swe-cv
+```
+
+## Modify content
+
+- Update `configuration.yaml` with your own data.
+
+## Watch while editing
+
+- For auto compilation on every save.
+
+```bash
+typst watch main.typ
+```
+
+## Compile
+
+```bash
+typst compile main.typ
+```
+
+This produces `main.pdf` in the project root.
+
+
+## Project structure
+
+- `main.typ` — Typst source
+- `configuration.yaml` — Your CV data
+- `main.pdf` — Output (generated)
