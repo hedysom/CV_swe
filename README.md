@@ -1,6 +1,6 @@
 # swe-cv (Typst CV)
 
-A CV template built with Typst. Edit the YAML config and compile to PDF. Small modifications and QOL adjustments of [this template](https://github.com/sardorml/swe-cv-typst)
+A CV template built with Typst. Edit the YAML config and compile to PDF. 
 
 ![Preview](example.png)
 
@@ -41,3 +41,6 @@ This produces `main.pdf` in the project root.
 - `main.typ` — Typst source
 - `configuration.yaml` — Your CV data
 - `main.pdf` — Output (generated)
+
+## Note
+Made from [this template](https://typst.app/universe/package/swe-cv), replacing the trailing comas at the end of lists, adding additional info section and small QOL adjustments.

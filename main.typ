@@ -1,4 +1,4 @@
-#let configuration = yaml("configuration1.yaml")
+#let configuration = yaml("configuration.yaml")
 #import "./lib.typ": *
 // Page settings
 #set page(margin: (left: 1.5cm, right: 1.5cm,top: 2cm, bottom: 2cm))
