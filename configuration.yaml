@@ -14,6 +14,8 @@ education:
     name: "University Name"
     date: "MM/YYYY - MM/YYYY"
     degree: "Degree title and focus"
+    # you can ommit finalGrade and gpa if you prefer, or include one without the other
+    # for Erasmus for example
     finalGrade: "Your final grade"
     gpa: "Your GPA"
   - location: "City, Country"
